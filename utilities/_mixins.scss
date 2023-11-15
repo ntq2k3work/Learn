@@ -1,0 +1,5 @@
+@mixin Background($theme:#fff){
+    background-color: $theme;
+}
+// mixin trong scss tương tự như function 
+// để sử dụng ta sử dụng @include

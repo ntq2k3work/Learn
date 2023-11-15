@@ -1,0 +1,75 @@
+sass/
+
+|
+
+|– abstracts/ (or utilities/) Chứa các thư mục được sử dụng nhiều,tái sự dụng
+
+|  |– _variables.scss   // Sass Variables
+
+|  |– _functions.scss   // Sass Functions
+
+|  |– _mixins.scss      // Sass Mixins
+
+|
+
+|– base/            Chứa các file để chỉnh lại sass thành mặc định
+
+|  |– _reset.scss       // Reset/normalize
+
+|  |– _typography.scss  // Typography rules
+
+|
+
+|– components/ (or modules/)        Chứa các file sass thành phần của trang 
+
+|  |– _buttons.scss     // Buttons
+
+|  |– _carousel.scss    // Carousel
+
+|  |– _slider.scss      // Slider
+
+|
+
+|– layout/                  Chứa các file gốc và ít có sự thay đổi khi chuyển trang.Được hiểu như là mẫu của 1 trang web
+
+|  |– _navigation.scss  // Navigation
+
+|  |– _grid.scss        // Grid system
+
+|  |– _header.scss      // Header
+
+|  |– _footer.scss      // Footer
+
+|  |– _sidebar.scss     // Sidebar
+
+|  |– _forms.scss       // Forms
+
+|
+
+|– pages/                   Chứa các file sass 
+
+|  |– _home.scss        // Home specific styles
+
+|  |– _about.scss       // About specific styles
+
+|  |– _contact.scss     // Contact specific styles
+
+|
+
+|– themes/
+
+|  |– _theme.scss       // Default theme
+
+|  |– _admin.scss       // Admin theme
+
+|
+
+|– vendors/
+
+|   |– _bootstrap.scss   // Bootstrap
+
+|  |– _jquery-ui.scss   // jQuery UI
+
+|
+
+`– main.scss             // Main Sass file
